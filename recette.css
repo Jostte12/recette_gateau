@@ -1,0 +1,159 @@
+
+body {
+    background-color: #8ba1bb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centre {
+    text-align: center;
+    width: 100%;
+}
+p.categorie {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-top: -90px;
+    margin-bottom: 40px;
+    padding: 10px 22px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+div.contenu {
+    overflow: visible;
+    background-color: white;
+    margin: 60px 10% 80px 10%;
+    padding: 0px 30px 30px 30px;   
+    min-width: 350px;  
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+
+
+p.description {
+    text-align: center;
+    font-size: 14px;
+    max-width: 400px;
+    display: inline-block;
+}
+
+div.categorie {
+    margin-bottom: -30px;
+    margin-top: 0px;
+   
+}
+
+div.container {
+    overflow: auto;
+}
+
+div.separateur {
+    display: inline-block;
+    background-color: black;
+    width: 100px;
+    height: 1px;
+}
+
+div.info {
+    position: relative;
+}
+
+table.info {
+    width: 100%;
+    position: absolute;
+    bottom: 3px;
+    background-color: #6C829DC0;
+    color: white;    
+    text-align: center; 
+    padding-top: 1%;
+    padding-bottom: 1%;  
+  
+}
+
+table.info td {
+    font-size: 12px;  
+    /* vertical-align: top; */
+}
+
+table.info th {
+    font-size: 14px; 
+    
+}
+
+img.info {
+    display: block;
+    object-fit: cover;
+    min-height: 200px;
+}
+    
+div.colonne {
+    width: 45%;
+    margin-top: 20px;
+}
+
+div.colonne h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid #6C829D; 
+    padding: 5px;   
+}
+
+div.colonne1 {  
+    display: inline-block;
+}
+
+div.colonne2 {
+    float: right;
+    margin-left: 10%;
+}
+
+div.ingredients p{
+    font-size: 14px;
+    text-align: center;
+    border: #6C829D solid 1px;
+    padding: 4px 0;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+table.preparation {
+    font-size: 14px;
+    margin: 0;
+}
+
+table.preparation tr {
+    height: 40px;
+}
+
+table.preparation td {
+    vertical-align: top;
+}
+
+table.preparation p.number {
+    background-color: #8ba1bb;
+    color: white;
+    width: 25px;
+    height: 25px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 4px;
+    margin: 0;
+}
+
+table.preparation td.preparation_etape {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+/* * {
+    overflow: auto;
+} */
